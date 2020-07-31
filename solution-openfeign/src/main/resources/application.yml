@@ -1,0 +1,33 @@
+#
+#commons.oauth2.client:
+#  #ssoLogoutUri: /access_token/logout
+#  #标识
+#  client_id: yuanqu-ezview-backend
+#  #密钥
+#  clientSecret: bcMxgr
+#  grantType: password
+#  serverUri: http://10.65.3.5/cloud-rbac  #服务端Server外网地址
+#  serverInUri: http://10.65.3.5  #服务端Server内网地址(为了解决内网中调用不能用域名访问的问题)
+#  clientUri: http://localhost:8080/casemgt-server   #客户端地址
+#  #maxAge: 86400
+#  username: shenguanfeng      #调用统一权限api使用
+#  password: kedacom666...
+#  jwtEnable: true
+#  serverName: cloud-rbac
+#  cas: false
+#commons.authz.simpleToken: false
+
+# 关闭Hystrix功能
+#feign.hystrix.enabled: false
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 7171
+logging:
+  level:
+    com.ycit.openfeign.feign: debug
+    root: debug
+
+
