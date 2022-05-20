@@ -19,7 +19,7 @@
         <eureka.version>2.2.4.RELEASE</eureka.version>
         <spring-boot-starter.version>2.3.3.RELEASE</spring-boot-starter.version>
         <jackson-datatype-jsr310.version>2.11.2</jackson-datatype-jsr310.version>
-        <gson.version>2.8.6</gson.version>
+        <gson.version>2.8.9</gson.version>
         <spring-cloud-starter-openfeign.version>2.2.4.RELEASE</spring-cloud-starter-openfeign.version>
         <hystrix.version>2.2.4.RELEASE</hystrix.version>
         <zuul.version>2.2.4.RELEASE</zuul.version>
